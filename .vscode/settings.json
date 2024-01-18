@@ -1,4 +1,10 @@
 {
     "editor.defaultFormatter": "chenglou92.rescript-vscode",
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "[es]": {
+        "editor.defaultFormatter": "cweijan.vscode-database-client2"
+    },
+    "[plaintext]": {
+        "editor.defaultFormatter": "lkrms.inifmt"
+    }
 }

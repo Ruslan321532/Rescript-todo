@@ -1,0 +1,33 @@
+$primaryColor: #333;
+$accentColor: #61dafb;
+
+.todoItem {
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, text-decoration 0.3s;
+  border-radius: 5px;
+  border: 2px solid $primaryColor;
+  &:hover {
+    background-color: lighten($primaryColor, 10%);
+  }
+}
+
+.completed {
+  background-color: $accentColor;
+  color: white;
+  text-decoration: line-through;
+  border-color: darken($accentColor, 10%);
+}
+
+.notCompleted {
+  background-color: $primaryColor;
+  color: white;
+  text-decoration: initial;
+}
+
+.inputStyle {
+  width: 200px;
+  height: 100px;
+}
